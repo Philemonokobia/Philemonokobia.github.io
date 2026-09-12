@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name — Data Analyst</title>
+<title>Your Okobia Philemon Ehighe  — Data Analyst</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -211,9 +211,9 @@
     <h2>Let's talk</h2>
     <p>Open to data analyst roles and freelance dashboard work.</p>
     <div class="contact-links">
-      <a href="mailto:you@example.com">Email</a>
-      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-      <a href="https://github.com/yourusername">GitHub</a>
+      <a href="mailto:okobiaphilemon@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/philemon-okobia-ba48951b3">LinkedIn</a>
+      <a href="https://github.com/philemonokobia">GitHub</a>
     </div>
   </div>
 </footer>
