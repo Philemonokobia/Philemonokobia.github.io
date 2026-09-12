@@ -1,45 +1,221 @@
-Your Name
-Work
-About
-Contact
-I turn raw data into decisions someone can actually act on.
-
-Data analyst focused on retail & sales analytics — building dashboards, digging into "why," and telling the story a spreadsheet can't tell on its own.
-
-Power BI
-DAX
-SQL
-Excel
-Python
-Selected work
-3 projects
-West region outsold the lowest region by 2×
-Adidas Sales Performance Dashboard
-Built an interactive Power BI dashboard analyzing $899M in sales across product, retailer, and region — with DAX-driven conditional highlighting that surfaces the top and bottom performer in every chart at a glance.
-
-Live dashboard
-Case study
-GitHub repo
-[Your headline metric here]
-[Project Two Name]
-[One or two sentences: what business question you answered, what data you used, and what you found.]
-
-Live dashboard
-Case study
-GitHub repo
-[Your headline metric here]
-[Project Three Name]
-[One or two sentences: what business question you answered, what data you used, and what you found.]
-
-Live dashboard
-Case study
-GitHub repo
-About
-[Write 3-4 sentences about your background: how you got into data/analytics, what industries or problems you're most drawn to, and what tools you work in day-to-day. Keep it conversational — this isn't a resume, it's a quick read for someone deciding whether to reach out.]
-
-Let's talk
-Open to data analyst roles and freelance dashboard work.
-
-Email
-LinkedIn
-GitHub
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink: #10131C;
+    --panel: #171B27;
+    --panel-line: #262B3B;
+    --text: #EDEEF2;
+    --text-dim: #9BA0B4;
+    --amber: #E8A33D;
+    --clay: #C4554D;
+    --teal: #3F7D74;
+    --serif: 'Newsreader', Georgia, serif;
+    --sans: 'Work Sans', -apple-system, sans-serif;
+    --maxw: 760px;
+  }
+  * { box-sizing: border-box; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+  html { scroll-behavior: smooth; }
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--text);
+    font-family:var(--sans);
+    line-height:1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
+  .wrap{
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  header{ padding: 32px 0 0; }
+  .nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--panel-line);
+    font-size: 14px;
+  }
+  .nav .mark{ font-family: var(--serif); font-size: 18px; font-style: italic; }
+  .nav ul{ display:flex; gap: 28px; list-style:none; margin:0; padding:0; }
+  .nav a{ text-decoration:none; color: var(--text-dim); transition: color .15s ease; }
+  .nav a:hover{ color: var(--text); }
+  .hero{
+    padding: 72px 0 56px;
+    opacity: 0;
+    animation: rise .6s ease-out forwards;
+  }
+  @keyframes rise{
+    from{ opacity:0; transform: translateY(10px); }
+    to{ opacity:1; transform: translateY(0); }
+  }
+  .hero h1{
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(34px, 5vw, 50px);
+    line-height: 1.15;
+    margin: 0 0 20px;
+    max-width: 14ch;
+  }
+  .hero h1 em{ font-style: italic; color: var(--amber); }
+  .hero p{
+    color: var(--text-dim);
+    font-size: 17px;
+    max-width: 52ch;
+    margin: 0 0 28px;
+  }
+  .tools{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+  .tools span{
+    border: 1px solid var(--panel-line);
+    padding: 5px 12px;
+    border-radius: 3px;
+  }
+  .section-head{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    padding-top: 56px;
+    margin-bottom: 8px;
+  }
+  .section-head h2{
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0;
+  }
+  .section-head .count{ font-size: 13px; color: var(--text-dim); }
+  .rule{ border:none; border-top: 1px solid var(--panel-line); margin: 0 0 8px; }
+  .entry{
+    padding: 28px 0;
+    border-bottom: 1px solid var(--panel-line);
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .entry:last-child{ border-bottom:none; }
+  .entry .metric{ font-family: var(--serif); font-size: 15px; color: var(--amber); }
+  .entry h3{ font-family: var(--serif); font-weight: 500; font-size: 22px; margin: 2px 0 6px; }
+  .entry p{ color: var(--text-dim); margin: 0 0 12px; max-width: 62ch; font-size: 15px; }
+  .entry .links{ display:flex; gap: 20px; font-size: 14px; }
+  .entry .links a{
+    text-decoration: none;
+    border-bottom: 1px solid var(--panel-line);
+    padding-bottom: 1px;
+    transition: border-color .15s ease, color .15s ease;
+  }
+  .entry .links a:hover{ color: var(--amber); border-color: var(--amber); }
+  .about p{ color: var(--text-dim); max-width: 62ch; font-size: 15px; }
+  footer{ padding: 56px 0 64px; margin-top: 40px; border-top: 1px solid var(--panel-line); }
+  footer h2{ font-family: var(--serif); font-weight: 500; font-size: 26px; margin: 0 0 10px; }
+  footer p{ color: var(--text-dim); margin: 0 0 20px; font-size: 15px; }
+  .contact-links{ display:flex; flex-wrap:wrap; gap: 24px; font-size: 15px; }
+  .contact-links a{ text-decoration:none; color: var(--text); border-bottom: 1px solid var(--clay); padding-bottom: 1px; }
+  .contact-links a:hover{ color: var(--clay); }
+  @media (max-width: 560px){
+    .nav ul{ gap: 16px; }
+    .section-head{ flex-direction:column; align-items:flex-start; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <span class="mark">Your Name</span>
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <h1>I turn raw data into decisions someone can <em>actually act on</em>.</h1>
+    <p>Data analyst focused on retail &amp; sales analytics — building dashboards, digging into "why," and telling the story a spreadsheet can't tell on its own.</p>
+    <div class="tools">
+      <span>Power BI</span>
+      <span>DAX</span>
+      <span>SQL</span>
+      <span>Excel</span>
+      <span>Python</span>
+    </div>
+  </section>
+  <section id="work">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <span class="count">3 projects</span>
+    </div>
+    <hr class="rule">
+    <article class="entry">
+      <span class="metric">West region outsold the lowest region by 2×</span>
+      <h3>Adidas Sales Performance Dashboard</h3>
+      <p>Built an interactive Power BI dashboard analyzing $899M in sales across product, retailer, and region — with DAX-driven conditional highlighting that surfaces the top and bottom performer in every chart at a glance.</p>
+      <div class="links">
+        <a href="#">Live dashboard</a>
+        <a href="#">Case study</a>
+        <a href="#">GitHub repo</a>
+      </div>
+    </article>
+    <article class="entry">
+      <span class="metric">[Your headline metric here]</span>
+      <h3>[Project Two Name]</h3>
+      <p>[One or two sentences: what business question you answered, what data you used, and what you found.]</p>
+      <div class="links">
+        <a href="#">Live dashboard</a>
+        <a href="#">Case study</a>
+        <a href="#">GitHub repo</a>
+      </div>
+    </article>
+    <article class="entry">
+      <span class="metric">[Your headline metric here]</span>
+      <h3>[Project Three Name]</h3>
+      <p>[One or two sentences: what business question you answered, what data you used, and what you found.]</p>
+      <div class="links">
+        <a href="#">Live dashboard</a>
+        <a href="#">Case study</a>
+        <a href="#">GitHub repo</a>
+      </div>
+    </article>
+  </section>
+  <section id="about">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <hr class="rule">
+    <div class="about">
+      <p>[Write 3-4 sentences about your background: how you got into data/analytics, what industries or problems you're most drawn to, and what tools you work in day-to-day. Keep it conversational — this isn't a resume, it's a quick read for someone deciding whether to reach out.]</p>
+    </div>
+  </section>
+</main>
+<footer id="contact">
+  <div class="wrap">
+    <h2>Let's talk</h2>
+    <p>Open to data analyst roles and freelance dashboard work.</p>
+    <div class="contact-links">
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+      <a href="https://github.com/yourusername">GitHub</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
