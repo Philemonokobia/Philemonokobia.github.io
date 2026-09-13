@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="adidas-dashboard-banner.png" 
+  <img src="adidas-dashboard-banner.PNG" 
        alt="Adidas Sales Dashboard" 
        width="100%">
 </p># Adidas Sales Performance & Analytics Dashboard
