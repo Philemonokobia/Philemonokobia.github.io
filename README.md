@@ -7,7 +7,7 @@
 
 An interactive Power BI dashboard analyzing $899.90M in Adidas sales across product categories, retailers, regions, and sales channels — built to help stakeholders spot top and bottom performers at a glance, without digging through raw tables.
 
-![page1-overview.JPG](page2-analysis.JPG)
+![dashboard screenshot](page1-overview.JPG page2-analysis.JPG)
 *Replace this with an actual screenshot or GIF of your dashboard once uploaded.*
 
 ## Business problem
