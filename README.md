@@ -1,4 +1,4 @@
-<p> align="center">
+<p align="center">
   <img src="adidas-dashboard-banner.PNG" 
        alt="Adidas Sales Dashboard" 
        width="100%">
